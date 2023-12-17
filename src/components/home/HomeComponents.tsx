@@ -11,6 +11,7 @@ import HomeImage from './svg/home.svg';
 import Colaborador1 from './svg/colaboradores/collaborator.svg';
 import Colaborador2 from './svg/colaboradores/collaborator2.svg';
 import Colaborador3 from './svg/colaboradores/collaborator3.svg';
+import { Link } from 'react-router-dom';
 export const HomeComponents = () => {
 	const ListColaborador = [
 		{
@@ -40,8 +41,12 @@ export const HomeComponents = () => {
 						</p>
 					</div>
 					<ButtonHome>
-						<button className='btn-home btn1'>Services</button>
-						<button className='btn-home btn2'>Contact Us</button>
+						<Link to='/work'>
+							<button className='btn-home btn1'>Service</button>
+						</Link>
+						<Link to='/contact'>
+							<button className='btn-home btn2'>Contact Us</button>
+						</Link>
 					</ButtonHome>
 				</SectionTexts>
 				<ImageHome>
