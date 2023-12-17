@@ -65,6 +65,7 @@ export const ImageHome = styled.div`
 	.image-home {
 		width: 600px;
 		position: absolute;
+		z-index: 8;
 		top: 50px;
 		right: 90px;
 	}

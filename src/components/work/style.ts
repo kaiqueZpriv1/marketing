@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Work = styled.section`
+	padding: 150px 0 0 0;
 	.container-work {
 		display: flex;
 		flex-direction: column;

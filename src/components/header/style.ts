@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Header = styled.header`
 	position: fixed;
+	z-index: 9;
 	background: #fafafa;
 	box-shadow: 0 0 5px #000;
 	width: 100%;

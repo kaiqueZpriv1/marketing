@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Team = styled.section`
 	background-color: #9739c8;
-	padding: 50px 0;
+	padding: 100px 0;
 	.container-team {
 		display: flex;
 		justify-content: space-around;

@@ -15,6 +15,10 @@ export default createGlobalStyle`
     p, span, button{
         font-family: 'Poppins', sans-serif;
     }
+   a{
+        text-decoration: none;
+        
+    }
     ::selection{
         background-color: #9739c8;
         color: #ced4da;

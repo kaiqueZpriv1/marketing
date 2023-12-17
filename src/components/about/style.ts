@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const About = styled.section`
-	margin: 100px 200px 100px 200px;
+	padding: 150px 200px 100px 200px;
 	.container-about {
 		display: flex;
         justify-content: center;

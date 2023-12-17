@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Contact = styled.section`
-	margin: 100px 0 30px 0;
+	padding: 100px 0 30px 0;
 	.container-ctt {
 		display: flex;
         justify-content: space-around;
